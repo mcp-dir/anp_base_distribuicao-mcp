@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/anp_base_distribuicao-mcp",
+  "title": "ANP: Base de Distribuição",
+  "description": "ANP: Base de Distribuição, official-source lookup. Platform-hosted, pay per query with prepaid credi",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/anp_base_distribuicao-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_anp_base_distribuicao"
+    }
+  ]
+}
